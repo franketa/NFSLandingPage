@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <title>Need For Speed 7 | Landing Page UI Design</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Banner -->
+  <header>
+    <a href="#" class="logo"><img src="logo.png"></a>
+    <div class="toggle"><img src="toggle.png" onclick="toggler(), toggleli(), toggleli2(), toggleli3()">
+      <ul class="menu-items">
+        <li id="li1">Menu 1</li>
+        <li id="li2">Menu 2</li>
+        <li id="li3">Menu 3</li>
+
+      </ul>
+
+
+    </div>
+  </header>
+  <div class="banner">
+    <div class="content">
+      <h2>See you <span>again</span></h2>
+      <p>Fast & Furious (also known as The Fast and the Furious)
+        is a media franchise centered on a series of action films that are largely concerned with illegal street racing,
+        heists and spies. The franchise also includes short films, a television series, live shows, video games and
+        theme park attractions. It is distributed by Universal Pictures.</p>
+      <a href="#" class="play" onclick="toggle();"><img src="play.png">Watch Trailer</a>
+      <div class="slide" onclick="slideToggler()"></div>
+      <ul class="sci">
+        <li><a href="#"><img src="facebook.png"></a></li>
+        <li><a href="#"><img src="twitter.png"></a></li>
+        <li><a href="#"><img src="instagram.png"></a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="trailer">
+    <video src="trailer.mp4" controls="true"></video>
+    <img src="close.png" onclick="toggle2();" class="close pause">
+  </div>
+  <script src="main.js"></script>
+
+</body>
+
+</html>
